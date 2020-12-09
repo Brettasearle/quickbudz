@@ -9,7 +9,7 @@ body{
 }
 
 .showcase{
-  background-image: linear-gradient(360deg, black 1%, transparent 75%),url('../images/one.webp');
+  background-image: linear-gradient(360deg, black 1%, transparent 75%),url('../assets/one.webp');
   height: 100vh;
   background-size: cover;
   background-position: center;

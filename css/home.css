@@ -44,12 +44,13 @@ p {
 }
 
 video {
-  width: 70%;
+  width: 60%;
+  padding-top: 80ch;
 }
 /* everything for the scroll down arrow */
 .arrow{
   position: absolute;
-  top: 80%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -61,7 +62,7 @@ video {
   border-right: 5px solid burlywood;
   transform: rotate(45deg);
   margin: -10px;
-  animation: animate 2s infinite;
+  animation: animate 5s infinite;
 }
 .arrow span:nth-child(2){
   animation-delay: -0.2s;

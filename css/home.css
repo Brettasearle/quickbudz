@@ -52,7 +52,7 @@ header {
 
 video {
   width: 60%;
-  margin-top: 40ch;
+  margin-top: 30vh;
   padding-top: 80px;
 }
 
@@ -111,12 +111,10 @@ video {
 
 /* link colours (nothing set in stone just change when we figure out a colour sceme) */
 
-a {
-  text-decoration: none;
-}
-
-
-a:link {
+a,
+a:link,
+a:focus,
+a:active {
   text-decoration: none;
 }
 
@@ -125,20 +123,14 @@ a:visited {
   color: aliceblue;
 }
 
-a:focus {
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: none;
   color: greenyellow;
 }
 
-a:active {
-  text-decoration: none;
-}
 /* Footer */
 footer {
+  margin-top: 30vh;
   background-color: #606163;
   color: #fff;
   width: 100%;

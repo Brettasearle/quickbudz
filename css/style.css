@@ -3,6 +3,7 @@
 
 /* I went very very simple with this so if you would like to get creative feel free! */
 body{
+  box-sizing: border-box;
   margin: 0;
   color: burlywood;
   line-height: 1.6;
@@ -18,7 +19,12 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+}
+
+h1 {
+  letter-spacing: 8px;
+  font-size: 80px;
+  text-transform: uppercase;
 }
 
 .button{
@@ -27,11 +33,14 @@ body{
   border: burlywood 1px solid;
   padding: 8px 10px;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
+  transition: all .3s;
 }
 
 .button:hover{
-  font-size: 22px;
+  color: #fff;
+  background-color: burlywood;
+  transform: scale(1.1);
 }
 

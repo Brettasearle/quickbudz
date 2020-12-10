@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,10 +11,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.flex-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 header {
@@ -32,11 +38,14 @@ header {
   padding: 25px;
   border-radius: 4px;
   flex-direction: column;
-
 }
 
-h1 {
+.header-text h1 {
   font-size: 80px;
+  font-family: 'Cabin', sans-serif;
+  color: burlywood;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
 
 p {
@@ -83,4 +92,29 @@ video {
       opacity: 0;
       transform: rotate(45deg) translate(20px,20px);
   }
+}
+
+/* Footer */
+footer {
+  background-color: #606163;
+  color: #fff;
+  width: 100%;
+  padding: 2.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+footer form input {
+  font-size: 15px;
+  padding: 5px;
+  width: 100%;
 }

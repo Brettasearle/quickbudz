@@ -4,29 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/home.css">
   <title>Document</title>
 </head>
 
 <body>
   <!-- Hero Header -->
-  <header>
-    <div class="header-text">
-      <h1>Quick Budz</h1>
-      <p>Tagline</p>
+  <div class="flex-container">
+    <header>
+      <div class="header-text">
+        <h1>Quick Budz</h1>
+        <p>Tagline</p>
 
-    </div>
-  </header>
+      </div>
+    </header>
 
-  <!-- Video -->
-  <video controls>
+    <!-- Video -->
+    <video controls>
 
-    <source src="/assets/quickbud.mp4" type="video/webm">
+      <source src="/assets/quickbud.mp4" type="video/webm">
 
-    <source src="/assets/quickbud.mp4" type="video/mp4">
+      <source src="/assets/quickbud.mp4" type="video/mp4">
 
-    Sorry, your browser doesn't support embedded videos.
-  </video>
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+  </div>
   <!-- Arrow HTML -->
   <div class="arrow">
     <span></span>
@@ -38,22 +43,20 @@
   <!-- About our Company -->
   <!-- What are we about, some sexy title, maybe some ipsome -->
 
-  <h1>Hello</h1>
-
-
-
 
   <!-- Newsletter Signup -->
   <footer>
-    <ul class="contact">
+    <ul>
       <li>
-        <h1>CONTACT</h1>
+        <h2 class="footer-title">CONTACT</h2>
       </li>
-      <li>Email: quickbudz@</li>
+      <li>Email: quickbudz@420mail.com</li>
       <li>Phone: 1-403-497-BUDZ</li>
     </ul>
-    <form>
-
+    <form class="flex-container">
+      <h2 class="footer-title">QUICK BUDZ NEWSLETTER</h2>
+      <legend>Sign up for news, exclusive offers, event invites and more.</legend>
+      <input type="text" placeholder="ENTER YOUR EMAIL">
     </form>
   </footer>
 </body>

@@ -41,8 +41,6 @@ header {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
 .header-text h1 {
   font-size: 80px;
   font-family: 'Cabin', sans-serif;
@@ -50,16 +48,11 @@ header {
   letter-spacing: 8px;
   text-transform: uppercase;
 }
->>>>>>> a0b12e324dd8921f9fdf1936654343efd953e1a2
 
 
 video {
   width: 60%;
-<<<<<<< HEAD
-  margin-top: 40ch;
-=======
   padding-top: 80px;
->>>>>>> a0b12e324dd8921f9fdf1936654343efd953e1a2
 }
 
 /* everything for the scroll down arrow */
@@ -99,51 +92,6 @@ video {
   }
 }
 
-<<<<<<< HEAD
-.about {
-  color: burlywood;
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 30ch;
-  border-style: solid;
-  background-color: #708090;
-  padding: 6vh;
-  text-align: center;
-  margin-top: 30vh;
-  text-decoration: none;
-}
-
-/* link colours (nothing set in stone just change when we figure out a colour sceme) */
-
-a {
-  text-decoration: none;
-}
-
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-a:focus {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  color: greenyellow;
-}
-
-a:active {
-  text-decoration: none;
-=======
 /* Footer */
 footer {
   background-color: #606163;
@@ -167,5 +115,4 @@ footer form input {
   font-size: 15px;
   padding: 5px;
   width: 100%;
->>>>>>> a0b12e324dd8921f9fdf1936654343efd953e1a2
 }

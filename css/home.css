@@ -28,6 +28,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-size: 40px;
 }
 
 .header-text {
@@ -48,12 +49,10 @@ header {
   text-transform: uppercase;
 }
 
-p {
-  font-size: 40px;
-}
 
 video {
   width: 60%;
+  margin-top: 40ch;
   padding-top: 80px;
 }
 
@@ -94,6 +93,50 @@ video {
   }
 }
 
+.about {
+  color: burlywood;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 30ch;
+  border-style: solid;
+  background-color: #708090;
+  padding: 6vh;
+  text-align: center;
+  margin-top: 30vh;
+  text-decoration: none;
+}
+
+/* link colours (nothing set in stone just change when we figure out a colour sceme) */
+
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+a:active {
+  text-decoration: none;
+}
 /* Footer */
 footer {
   background-color: #606163;

@@ -53,7 +53,6 @@ header {
 video {
   width: 60%;
   margin-top: 30vh;
-  padding-top: 80px;
 }
 
 /* everything for the scroll down arrow */
@@ -102,7 +101,7 @@ video {
   align-items: center;
   max-width: 30ch;
   border-style: solid;
-  background-color: #708090;
+  background-color:#606163;
   padding: 6vh;
   text-align: center;
   margin-top: 30vh;
